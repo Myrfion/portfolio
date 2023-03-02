@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://myrfion.github.io"',
+  title: 'TL.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Tymur Levtsun',
+  role: 'Software Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'A passionate software developer with hands-on experience in full-stack and mobile development using popular web technologies. Strong expertise in React.js, React Native, and Node.js with a clear understanding of project development processes. Eager to contribute to team success through hard work, constant learning, attention to detail, and excellent organizational skills.',
+  resume: 'https://aqua-sianna-30.tiiny.site/',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/tymur-levtsun-439757172/',
+    github: 'https://github.com/Myrfion',
   },
 }
 
@@ -21,28 +21,29 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Sprowt',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Sprowt is a meditation app for IOS and Android made with React Native, providing users with various meditation sessions to listen to.',
+    stack: ['React Native', 'TypeScript', 'Firebase', 'Next.js'],
+    appStore:
+      'https://apps.apple.com/us/app/sprowt-emotion-meditation/id1560829178',
+    googlePlay:
+      'https://play.google.com/store/apps/details?id=com.sprowt&hl=en&gl=US',
   },
   {
-    name: 'Project 2',
+    name: '100% Brain Capacity Brainwaves',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      '100% Brain Capacity is a brainwave synchronization app that uses binaural and isochromatic beats, and natural rhythms to enhance cognitive performance, memory, concentration, and mental clarity. ',
+    stack: ['React Native', 'Javascript'],
+    appStore:
+      'https://apps.apple.com/us/app/100-brain-capacity-brainwaves/id1554869360',
   },
   {
-    name: 'Project 3',
+    name: 'Gideon Admin Panel',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Gideon is an admin panel designed for the eponymous project. With Gideon, users can manage database entries for conditions, systems, symptoms, and users.',
+    stack: ['React', 'Material UI'],
+    livePreview: 'https://admin.medpurehealth.com/',
   },
 ]
 
@@ -55,17 +56,20 @@ const skills = [
   'TypeScript',
   'React',
   'Redux',
-  'SASS',
+  'Firebase',
+  'Node.js',
   'Material UI',
+  'Chakra UI',
+  'Tailwindcss',
   'Git',
   'CI/CD',
   'Jest',
-  'Enzyme',
+  'Detox',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'levtsuntimur@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
